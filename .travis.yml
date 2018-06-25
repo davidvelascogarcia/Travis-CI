@@ -4,7 +4,7 @@ dist: trusty
 #sudo: required
 
 compiler: 
-   - gcc
+ #  - gcc
    - clang
 
 
@@ -27,5 +27,5 @@ script:
   - make
 
 after_success:
-  #- sudo make install
-  #- sudo make uninstall
+  - sudo make install
+  - sudo make uninstall

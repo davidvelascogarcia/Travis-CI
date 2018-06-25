@@ -1,0 +1,31 @@
+language: cpp
+os: linux
+dist: trusty
+#sudo: required
+
+compiler: 
+   - gcc
+   - clang
+
+
+before_install:
+  - sudo apt-get -qq update
+
+  #-- Configure Git (needed by YCM)
+  - if [ ! `git config --get user.email` ]; then `git config --global user.email 'user@example.com'`; fi
+  - if [ ! `git config --get user.name` ]; then `git config --global user.name 'Travis CI'`; fi
+
+install:
+
+
+before_script:
+  - mkdir build
+  - cd build
+  - cmake ..
+
+script:
+  - make
+
+after_success:
+  #- sudo make install
+  #- sudo make uninstall

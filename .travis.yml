@@ -1,7 +1,7 @@
 language: cpp
 os: linux
 dist: trusty
-#sudo: required
+sudo: required
 
 compiler: 
  #  - gcc
@@ -28,5 +28,8 @@ script:
 
 after_success:
   - sudo make install
-  - ./Prueba_Travis_CI
+  - Prueba_Travis_CI
   - sudo make uninstall
+
+notifications:
+  email: true

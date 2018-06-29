@@ -1,4 +1,5 @@
 # Travis CI: Continuous Integration
+[![Build Status](https://travis-ci.org/davidvelascogarcia/Travis-CI.svg?branch=master)](https://travis-ci.org/davidvelascogarcia/Travis-CI)
 
 - [Introducción](#introducción)
 - [Sintaxis](#sintaxis)

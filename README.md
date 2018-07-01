@@ -18,7 +18,7 @@ Para más información consulte: [Travis CI Sitio Web](https://travis-ci.org/).
 
 Ejemplo fichero `.travis.yml`:
 
-```bash
+```yml
 
 # Integración continua Travis CI
 

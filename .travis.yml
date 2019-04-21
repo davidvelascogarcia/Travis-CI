@@ -39,10 +39,11 @@ before_install:
 
 install:
 
-
 # Tareas a ejecutar antes de nuestra prueba
 
 before_script:
+  - cd programs
+  - cd test
   - mkdir build
   - cd build
   - cmake ..
@@ -56,10 +57,9 @@ script:
 
 after_success:
   - sudo make install
-  - Prueba_Travis_CI
   - sudo make uninstall
 
 # Notificaciones por correo
 
 notifications:
-  email: true
+email: true

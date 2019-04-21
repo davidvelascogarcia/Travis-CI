@@ -80,7 +80,6 @@ script:
 
 after_success:
   - sudo make install
-  - Prueba_Travis_CI
   - sudo make uninstall
 
 # Notificaciones por correo

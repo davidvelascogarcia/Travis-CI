@@ -43,7 +43,7 @@ install:
 
 before_script:
   - cd programs
-  - cd test
+  - cd testTravisCI
   - mkdir build
   - cd build
   - cmake ..

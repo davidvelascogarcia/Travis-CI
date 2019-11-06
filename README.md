@@ -1,4 +1,7 @@
 # Travis CI: Continuous Integration
+
+
+[![travisCI Homepage](https://img.shields.io/badge/travisCI-master-orange.svg)](https://github.com/davidvelascogarcia/travisCI/tree/master/docs) [![Latest Release](https://img.shields.io/github/tag/davidvelascogarcia/travisCI.svg?label=Latest%20Release)](https://github.com/davidvelascogarcia/travisCI/tags)
 [![Build Status](https://travis-ci.org/davidvelascogarcia/travisCI.svg?branch=master)](https://travis-ci.org/davidvelascogarcia/travisCI)
 
 - [Introducción](#introducción)
@@ -93,6 +96,12 @@ notifications:
 ## Listado de programas
 
 Se adjuntan el listado de programas implementados en [./programs](./programs).
+
+## Status
+
+[![Build Status](https://travis-ci.org/davidvelascogarcia/travisCI.svg?branch=master)](https://travis-ci.org/davidvelascogarcia/travisCI)
+
+[![Issues](https://img.shields.io/github/issues/davidvelascogarcia/travisCI.svg?label=Issues)](https://github.com/davidvelascogarcia/travisCI/issues)
 
 
 ## Enlaces de interés
